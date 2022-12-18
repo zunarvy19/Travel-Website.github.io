@@ -155,6 +155,7 @@
    </section>
 
 
+
    <!-- footer section ends -->
 
 
@@ -181,6 +182,8 @@
    <!-- custom js file link  -->
    <script src="js/script.js"></script>
 
+   <!-- Font awesome -->
+   <script src="https://kit.fontawesome.com/ba6b439bcb.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

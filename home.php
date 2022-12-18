@@ -48,8 +48,7 @@
 
          <div class="swiper-wrapper">
 
-            <div class="swiper-slide slide"
-               style="background:url(images/clarisse-croset-0Q1tBYIscAk-unsplash.jpg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images/clarisse-croset-0Q1tBYIscAk-unsplash.jpg) no-repeat">
                <div class="content">
                   <span>Explore, Discover, Travel</span>
                   <h3>travel arround the world</h3>
@@ -246,6 +245,8 @@
    <!-- custom js file link  -->
    <script src="js/script.js"></script>
 
+   <script src="https://kit.fontawesome.com/ba6b439bcb.js" crossorigin="anonymous"></script>
+   <!-- Font awesome -->
    <script src="https://kit.fontawesome.com/ba6b439bcb.js" crossorigin="anonymous"></script>
 
 </body>
