@@ -680,9 +680,7 @@ section{
    color:var(--main-color);
 }
 
-.fb-color{
-   color: var(--facebook);
-}
+
 /* MEW FOOTER */
 /* .left{
    margin-left: -50px;
@@ -757,6 +755,7 @@ h6{
    #menu-btn{
       display: inline-block;
       transition: .2s linear;
+      color: var(--light-bg);
    }
 
    #menu-btn.fa-times{
@@ -766,7 +765,7 @@ h6{
    .header .navbar{
       position: absolute;
       top:99%; left:0; right:0;
-      background-color: var(--white);
+      background-color: var(--main-color);
       border-top: var(--border);
       padding:2rem;
       transition: .2s linear;
