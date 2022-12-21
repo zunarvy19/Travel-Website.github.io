@@ -22,44 +22,22 @@
 
    <!-- header section starts  -->
 
-   <section class="footer">
+   <section class="header">
 
-      <div class="box-container box-size">
+      <a href="home.php" class="logo"><span style="margin-left: 16.2px; font-weight: bolder;">Morarifton</span> <br>Tour
+         & Travel</a>
 
-         <div>
-            <h6><span class="ft">MORARIFTON </span>travel is an investment in yourself.</h6>
-         </div>
+      <nav class="navbar">
+         <a href="home.php">Home</a>
+         <a href="about.php">About</a>
+         <a href="package.php">Package</a>
+         <a href="book.php">Book</a>
+      </nav>
 
-         <div class="box left">
-            <h3>Quick Links</h3>
-            <a href="home.php"> <i class="fa-solid fa-angles-right"></i> Home</a>
-            <a href="about.php"> <i class="fa-solid fa-angles-right"></i> About</a>
-            <a href="package.php"> <i class="fa-solid fa-angles-right"></i> Package</a>
-            <a href="book.php"> <i class="fa-solid fa-angles-right"></i> Book</a>
-         </div>
-
-         <div class="box middle">
-            <h3>Contact Info</h3>
-            <a href="#"><i class="fa-solid fa-angles-right"></i> +62877-9010-9475</a>
-            <a href="#"><i class="fa-solid fa-angles-right"></i> +111-222-3333 </a>
-            <a href="#"> <i class="fa-solid fa-angles-right"></i> morarifton@gmail.com</a>
-            <a href="https://goo.gl/maps/4U4WYSoQFXneneyy7" target="_blank"> <i class="fa-solid fa-angles-right"></i>
-               Kelapa Dua </a>
-         </div>
-
-         <div class="box right">
-            <h3>Follow Us</h3>
-            <a href="#"> <i class="fab fa-facebook-f logof"></i> Facebook </a>
-            <a href="#"> <i class="fab fa-twitter logot"></i> Twitter </a>
-            <a href="#"> <i class="fab fa-instagram logoi"></i> Instagram </a>
-            <a href="#"> <i class="fab fa-linkedin logol"></i> Linkedin </a>
-         </div>
-
-      </div>
-
-      <div class="credit"> All Rights Reserved </div>
+      <div id="menu-btn" class="fas fa-bars"></div>
 
    </section>
+
 
 
    <!-- header section ends -->
@@ -83,7 +61,7 @@
             <div class="content">
                <h3>Raja Ampat</h3>
                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p> -->
-               <a href="book.php" class="btn">book now</a>
+               <a href="book.php" class="btn">Book Now</a>
             </div>
          </div>
 
@@ -94,7 +72,7 @@
             <div class="content">
                <h3>Bromo Mountain</h3>
                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p> -->
-               <a href="book.php" class="btn">book now</a>
+               <a href="book.php" class="btn">Book Now</a>
             </div>
          </div>
 
@@ -105,7 +83,7 @@
             <div class="content">
                <h3>Komodo Island</h3>
                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p> -->
-               <a href="book.php" class="btn">book now</a>
+               <a href="book.php" class="btn">Book Now</a>
             </div>
          </div>
 
@@ -116,7 +94,7 @@
             <div class="content">
                <h3>Rinjani Mountain</h3>
                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p> -->
-               <a href="book.php" class="btn">book now</a>
+               <a href="book.php" class="btn">Book Now</a>
             </div>
          </div>
 
@@ -127,7 +105,7 @@
             <div class="content">
                <h3>Ulun & Danu Beratan Temple</h3>
                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p> -->
-               <a href="book.php" class="btn">book now</a>
+               <a href="book.php" class="btn">Book Now</a>
             </div>
          </div>
 
@@ -138,7 +116,7 @@
             <div class="content">
                <h3>Tegallalang Rice Terrace</h3>
                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p> -->
-               <a href="book.php" class="btn">book now</a>
+               <a href="book.php" class="btn">Book Now</a>
             </div>
          </div>
 
@@ -148,8 +126,8 @@
             </div>
             <div class="content">
                <h3>Labuan Bajo</h3>
-               <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p> -->
-               <a href="book.php" class="btn">book now</a>
+
+               <a href="book.php" class="btn">Book Now</a>
             </div>
          </div>
 
@@ -159,8 +137,8 @@
             </div>
             <div class="content">
                <h3>Prambanan Temple</h3>
-               <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p> -->
-               <a href="book.php" class="btn">book now</a>
+
+               <a href="book.php" class="btn">Book Now</a>
             </div>
          </div>
 
@@ -170,14 +148,11 @@
             </div>
             <div class="content">
                <h3>Nusa Penida</h3>
-               <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p> -->
-               <a href="book.php" class="btn">book now</a>
+               <a href="book.php" class="btn">Book Now</a>
             </div>
          </div>
 
       </div>
-
-      <div class="load-more"><span class="btn">load more</span></div>
 
    </section>
 

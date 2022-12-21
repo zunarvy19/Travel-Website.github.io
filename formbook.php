@@ -7,14 +7,11 @@ if (isset($_POST['send'])) {
   $nama = $_POST['name'];
   $email = $_POST['email'];
   $telepon = $_POST['phone'];
-  $alamat = $_POST['address'];
+  $harga = $_POST['price'];
   $tujuan = $_POST['location'];
-  $jmlOrg = $_POST['guests'];
-  $kedatangan = $_POST['arrivals'];
-  $keberangkatan = $_POST['leaving'];
 
-  $request = " insert into formbook(nama, email,	telepon,	alamat,	tujuan,	jmlOrang,	kedatangan,	keberangkatan) values 
-  ('$nama', '$email', $telepon, '$alamat', '$tujuan', '$jmlOrg', '$kedatangan', '$keberangkatan')";
+  $request = " insert into formbook(nama, email, telepon, harga, tujuan) values 
+  ('$nama', '$email', $telepon, '$harga', '$tujuan')";
 
   mysqli_query($connection, $request);
 

@@ -55,46 +55,46 @@
          <div class="flex">
             <div class="inputBox">
                <span>Nama Anda :</span>
-               <input type="text" placeholder="Nama Anda" name="name">
+               <input type="text" placeholder="Nama Anda" name="name" required>
             </div>
             <div class="inputBox">
                <span>E-mail :</span>
-               <input type="email" placeholder="E-mail Anda" name="email">
+               <input type="email" placeholder="E-mail Anda" name="email" required>
             </div>
             <div class="inputBox">
                <span>No. Telp :</span>
-               <input type="text" placeholder="Nomor Telepon Anda" name="phone" maxlength="12">
+               <input type="text" placeholder="Nomor Telepon Anda" name="phone" maxlength="12" required>
             </div>
             <div class="inputBox">
-               <span>Alamat :</span>
-               <input type="text" placeholder="Alamat Anda" name="address">
-            </div>
-            <div class="inputBox">
-               <span>Tujuan Anda : </span>
-               <input type="option" list="tujuan" placeholder="Tujuan Anda" name="location">
-               <datalist id="tujuan">
-                  <option>Raja Ampat</option>
-                  <option>Bromo Mountain</option>
-                  <option>Komodo Island</option>
-                  <option>Rinjani Mountain</option>
-                  <option>Ulun & Danu Temple</option>
-                  <option>Tegallalang Rice Terrace</option>
-                  <option>Labuan Bajo</option>
-                  <option>Prambanan Temple</option>
-                  <option>Nusa Penida</option>
+               <span>Best Price :</span>
+               <input type="option" list="harga" placeholder="Harga" name="price" required>
+               <datalist id="harga">
+                  <option id="rampat">start from </option>
+                  <option id="bromo">start from </option>
+                  <option id="komodo">start from </option>
+                  <option id="rinjani">start from </option>
+                  <option id="ulun">start from </option>
+                  <option id="tegalang">start from </option>
+                  <option id="bajo">start from </option>
+                  <option id="prambanan">start from </option>
+                  <option id="nusa">start from </option>
                </datalist>
             </div>
+
             <div class="inputBox">
-               <span>Jumlah Orang :</span>
-               <input type="number" placeholder="Jumlah Orang" name="guests">
-            </div>
-            <div class="inputBox">
-               <span>Kedatangan :</span>
-               <input type="date" name="arrivals">
-            </div>
-            <div class="inputBox">
-               <span>Keberangkatan :</span>
-               <input type="date" name="leaving">
+               <span>Tujuan Anda : </span>
+               <input type="option" list="tujuan" placeholder="Tujuan Anda" name="location" required>
+               <datalist id="tujuan">
+                  <option id="rampat" onclick="">Raja Ampat</option>
+                  <option id="bromo">Bromo Mountain</option>
+                  <option id="komodo">Komodo Island</option>
+                  <option id="rinjani">Rinjani Mountain</option>
+                  <option id="ulun">Ulun & Danu Temple</option>
+                  <option id="tegalang">Tegallalang Rice Terrace</option>
+                  <option id="bajo">Labuan Bajo</option>
+                  <option id="prambanan">Prambanan Temple</option>
+                  <option id="nusa">Nusa Penida</option>
+               </datalist>
             </div>
          </div>
 
@@ -111,7 +111,6 @@
 
 
 
-   <!-- footer section starts  -->
 
    <!-- footer section starts  -->
 
@@ -142,9 +141,9 @@
 
          <div class="box right">
             <h3>Follow Us</h3>
-            <a href="#"> <i class="fab fa-facebook-f logof"></i> Facebook </a>
-            <a href="#"> <i class="fab fa-twitter logot"></i> Twitter </a>
             <a href="#"> <i class="fab fa-instagram logoi"></i> Instagram </a>
+            <a href="#"> <i class="fa-brands fa-whatsapp logow"></i> Whatsapp </a>
+            <a href="#"> <i class="fab fa-twitter logot"></i> Twitter </a>
             <a href="#"> <i class="fab fa-linkedin logol"></i> Linkedin </a>
          </div>
 

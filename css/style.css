@@ -348,6 +348,10 @@ section{
    padding:1rem 0;
 }
 
+.homebtn{
+   margin-left: 700px;
+   margin-bottom: 50px;
+}
 .about{
    display: flex;
    align-items: center;
@@ -445,52 +449,6 @@ section{
    text-align: center;
 }
 
-.reviews{
-   background: var(--light-bg);
-}
-
-.reviews .slide{
-   padding:2rem;
-   border:var(--border);
-   background: var(--white);
-   text-align: center;
-   box-shadow: var(--box-shadow);
-   user-select: none;
-}
-
-.reviews .slide .stars{
-   padding-bottom: .5rem;
-}
-
-.reviews .slide .stars i{
-   font-size: 1.7rem;
-   color:var(--main-color);
-}
-
-.reviews .slide p{
-   font-size: 1.5rem;
-   color:var(--light-black);
-   line-height: 2;
-   padding:1rem 0;
-}
-
-.reviews .slide h3{
-   font-size: 2rem;
-   color:var(--black);
-}
-
-.reviews .slide span{
-   font-size: 1.5rem;
-   color:var(--main-color);
-   display: block;
-}
-
-.reviews .slide img{
-   height: 7rem;
-   width: 7rem;
-   border-radius: 50%;
-   margin-top: 1rem;
-}
 
 .packages .box-container{
    display: grid;
@@ -510,7 +468,10 @@ section{
 .packages .box-container .box:nth-child(3),
 .packages .box-container .box:nth-child(4),
 .packages .box-container .box:nth-child(5),
-.packages .box-container .box:nth-child(6){
+.packages .box-container .box:nth-child(6),
+.packages .box-container .box:nth-child(7),
+.packages .box-container .box:nth-child(8),
+.packages .box-container .box:nth-child(9){
    display: inline-block;
 }
 
@@ -600,7 +561,7 @@ section{
 
 
 
-
+/* FOOTER START */
 .footer{
    background: var(--taro);
    background-size: cover;
@@ -638,11 +599,11 @@ section{
    font-weight: bolder;
 }
 
-.footer .box-container .box .logof{
+.footer .box-container .box .logow{
    padding-right: .5rem;
    transition: .2s linear;
    font-weight: bolder;
-   color: var(--facebook);
+   color: var(--whatsapp)
 }
 .footer .box-container .box .logot{
    padding-right: .5rem;
@@ -682,14 +643,10 @@ section{
 
 
 /* MEW FOOTER */
-/* .left{
-   margin-left: -50px;
-} */
+
 .middle{
    margin-left: -45px;
 }
-
-
 
 .text{
    margin-left: -100px;
@@ -705,6 +662,7 @@ h6{
    margin-top: 60px;
    font-size: 20px;
 }
+/* NEW FOOTER END */
 /* footer end */
 
 

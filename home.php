@@ -136,55 +136,7 @@
 
    <!-- home about section ends -->
 
-   <!-- home packages section starts  -->
-
-   <section class="home-packages">
-
-      <h1 class="heading-title"> Our Packages </h1>
-
-      <div class="box-container">
-
-         <div class="box">
-            <div class="image">
-               <img src="images/ernests-vaga-0zR4Hux_xPc-unsplash.jpg" alt="">
-            </div>
-            <div class="content">
-               <h3>Raja Ampat</h3>
-               <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p> -->
-               <a href="book.php" class="btn">Book Now</a>
-            </div>
-         </div>
-
-         <div class="box">
-            <div class="image">
-               <img src="images/ryan-farid-3FgXKLJvaHI-unsplash.jpg" alt="">
-            </div>
-            <div class="content">
-               <h3>Bromo Mountain</h3>
-               <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p> -->
-               <a href="book.php" class="btn">Book Now</a>
-            </div>
-         </div>
-
-         <div class="box">
-            <div class="image">
-               <img src="images/rizknas-0ICJEbo0xPw-unsplash.jpg" alt="">
-            </div>
-            <div class="content">
-               <h3>Komodo Islands</h3>
-               <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p> -->
-               <a href="book.php" class="btn">Book Now</a>
-            </div>
-         </div>
-
-      </div>
-
-      <div class="load-more loadbutton"> <a href="package.php" class="btn">Load More</a> </div>
-
-   </section>
-
-   <!-- home packages section ends -->
-
+   <a href="https://wa.me/+6289676570369" class="btn homebtn">Contact Us <i class="fa-brands fa-whatsapp"></i></a>
 
    <!-- footer section starts  -->
 
